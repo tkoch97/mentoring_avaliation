@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+body, input {
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: #BFD7E4;
+}
+
+body::before {
+  content: '';
+  width: 100%;
+  height: 466px;
+  background: #293241;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.page {
+  width: 750px;
+  margin: 107px auto;
+}
+
+header {
+  text-align: center;
+  color: #fff;
+}
+
+header h1 {
+  font-family: 'Staatliches', sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 45px;
+  letter-spacing: 1px;
+}
+
+header p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-top: 4px;
+}
+
+.header-img {
+  margin-top: 30px;
+}
+
+fieldset {
+  border: none;
+}
+
+#avaliation-form {
+  background: #fff;
+  padding: 30px 64px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+#personal-info {
+  background: #F67669;
+  height: 119px;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Staatliches', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 34px;
+  color: #fff;
+}
+
+.full-name {
+  display: flex;
+  gap: 22px;
+}
+
+input {
+  height: 55.52861785888672px;
+  width: 100%;
+  border: 1px solid #E6E6F0;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 15px;
+  margin-top: 8px;
+  font-size: 15px;
+  color: #293241;
+}
+
+.full-name input {
+  width: 300px;
+}
+
+label {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+span {
+  margin-left: 9px;
+  color: #C1BCCC;
+  font-family: Poppins;
+  font-size: 12px;
+  line-height: 20px;
+
+}
+
