@@ -58,9 +58,60 @@
         </fieldset>
 
         <fieldset>
-          
+          <div class="fieldset-wrapper">
+            <legend>Informações do mentor</legend>
+
+            <div class="input-wrapper">
+              <label for="select-mentor">Selecione quem foi o seu mentor</label>
+              <select>
+                <option value="">Vitinha</option>
+                <option value="">Messi</option>
+                <option value="">Rodinei</option>
+                <option value="">Cristiano Ronaldo</option>
+              </select>
+            </div>
+
+            <div class="input-wrapper">
+              <label for="feedback">Feedback sobre o mentor</label>
+              <textarea id="feedback"></textarea>
+            </div>
+
+            <div class="checkbox-wrapper">
+              <input type="checkbox" id="no-doubt">
+              <label for="no-doubt">Todas as minhas dúvidas foram esclarecidas durante a mentoria.</label>
+            </div>
+          </div>
         </fieldset>
-  
+
+        <fieldset>
+          <div class="fieldset-wrapper">
+
+            <legend>Agendar próxima mentoria</legend>
+            
+            <div class="three-coluns">
+
+              <div class="input-wrapper">
+                <label for="date">Data <span>(DD/MM/AAAA)</span></label>
+                <input type="date" id="date">
+              </div>
+
+              <div class="input-wrapper">
+                <label for="time-beggin">Das</label>
+                <input type="time" id="time-beggin">
+              </div>
+
+              <div class="input-wrapper">
+                <label for="time-finish">Até</label>
+                <input type="time" id="time-finish">
+              </div>
+
+            </div>
+
+            <input class="button" type="submit" value="Salvar">
+           
+            </div>
+          </div>
+        </fieldset>
     </form>
   </div>
 </body>
